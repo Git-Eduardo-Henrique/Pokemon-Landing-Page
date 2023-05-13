@@ -83,10 +83,10 @@ main{
     font-size: 17px;
 }
 
-.poke-gif{
-    width: 90px;
-    height: 90px;
-}
+/* .poke-gif{
+    width: 70px;
+    height: 70px;
+} */
 
 .types{
     display: flex;
