@@ -7,8 +7,8 @@ function trocar_tema(){
     body.classList.toggle("dark") // remove e coloca a classe
 
     if (themeIsDark){
-        theme_button.setAttribute("src", "images/sun.png")
+        theme_button.setAttribute("src", "./src/images/sun.png")
     } else {
-        theme_button.setAttribute("src", "images/moon.png")
+        theme_button.setAttribute("src", "./src/images/moon.png")
     }
 }
