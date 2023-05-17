@@ -7,15 +7,6 @@ body{
     color: #333333;
 }
 
-body.dark{
-    background: #212121;
-    color: #f5f5f5;
-}
-
-.dark .poke-card{
-    background: #a8a8a8;
-}
-
 header{
     display: flex;
     flex-direction: row;
@@ -35,32 +26,13 @@ main{
     gap: 30px;
 }
 
-.poke-card{
-    background: #d8e3ec;
-    width: 200px;
-    padding: 15px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-
-    border-radius: 15px;
-
-    transition: 0.2s ease-in-out;
-}
-
-.poke-card:hover{
-    background: #96d9d6;
-}
-
-.logo:hover, .button-img:hover, .poke-card:hover{
+.logo:hover, .button-img:hover{
     transform: scale(1.05);
     cursor: pointer
 }
 
 .logo, .button-img{
-    width: 30px;
+    width: 60px;
 }
 
 #theme-button{
@@ -73,7 +45,7 @@ main{
     justify-content: space-between;
 
     flex-wrap: wrap;
-    border: 1px solid #333333;
+    border: 1px solid #f5f5f5;
     border-radius: 8px;
 }
 
@@ -81,6 +53,7 @@ main{
     padding: 5px;
     text-transform: uppercase;
     font-size: 17px;
+    color: #f5f5f5;
 }
 
 /* .poke-gif{
@@ -130,7 +103,11 @@ main{
 }
 
 .desc{
-    max-height: 80px;
+    background: #d8e3ec;
+    border-radius: 10px;
+
+    text-align: right;
+    max-height: 100px;
     padding-right: 10px;
     overflow-y: scroll; /* adiciona um scrool caso ultrapasse a altura */
 }

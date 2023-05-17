@@ -1,0 +1,69 @@
+.poke-card, .fire-poke-card, .water-poke-card, .grass-poke-card, .insect-poke-card{
+    width: 200px;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+    border-radius: 15px;
+
+    transition: 0.2s ease-in;
+}
+
+.poke-card{
+    background: #d8e3ec;
+}
+
+.poke-card:hover, .fire-poke-card:hover, .water-poke-card:hover, .grass-poke-card:hover, .insect-poke-card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.poke-card:hover{
+    background: #96d9d6;
+}
+
+/* fire type*/
+.fire-poke-card{
+    background: url(../images/backgrounds/fire-background-fixed.png) center center;
+    background-size: cover;
+}
+
+.fire-poke-card:hover{
+    background: url(../images/backgrounds/fire-background.gif) center center;
+}
+
+/* water type */
+.water-poke-card{
+    background: url(../images/backgrounds/water-background-fixed.png) center center;
+    background-size: cover;
+}
+
+.water-poke-card:hover{
+    background: url(../images/backgrounds/water-background.gif) center center;
+}
+
+/* grass type */
+.grass-poke-card{
+    background: url(../images/backgrounds/grass-background-fixed.png) center center;
+    background-size: cover;
+}
+
+.grass-poke-card:hover{
+    background: url(../images/backgrounds/grass-background.gif) center center;
+    background-size: cover;
+}
+
+/* poison type */
+.insect-poke-card{
+    background: url(../images/backgrounds/insect-background-fixed.png) center center;
+    background-size: cover;
+}
+
+.insect-poke-card:hover{
+    background: url(../images/backgrounds/insect-background.gif) center center; 
+    background-size: cover;
+}
