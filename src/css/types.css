@@ -1,4 +1,4 @@
-.poke-card, .fire-poke-card, .water-poke-card, .grass-poke-card, .insect-poke-card{
+.fire-poke-card, .water-poke-card, .grass-poke-card, .insect-poke-card{
     width: 200px;
     padding: 5px;
 
@@ -13,17 +13,9 @@
     transition: 0.2s ease-in;
 }
 
-.poke-card{
-    background: #d8e3ec;
-}
-
-.poke-card:hover, .fire-poke-card:hover, .water-poke-card:hover, .grass-poke-card:hover, .insect-poke-card:hover{
+.fire-poke-card:hover, .water-poke-card:hover, .grass-poke-card:hover, .insect-poke-card:hover{
     transform: scale(1.05);
     cursor: pointer;
-}
-
-.poke-card:hover{
-    background: #96d9d6;
 }
 
 /* fire type*/
