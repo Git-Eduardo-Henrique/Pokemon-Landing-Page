@@ -1,10 +1,26 @@
+:root{
+    /* colors */
+    --white: #f3f0f0;
+    --dark: #100F10;
+    --medium-dark: #1b1b1b;
+    --red: #E33D33;
+
+    --background: #DBD9DB;
+
+    /* measurements */
+    --medium: 0.875rem;
+}
+
 body{
+    display: flex;
+    flex-direction: column;
+
     font-family: 'Poppins', sans-serif;
-    max-width: 1280px; /* largura maxima */
+
     margin: 0 auto;
 
-    background: #5e5b5bad;
-    color: #333333;
+    background: var(--background);
+    color: var(--medium-dark);
 }
 
 header{
@@ -15,15 +31,11 @@ header{
     padding: 25px;
 }
 
-main{
-    padding: 25px;
-}
-
 .poke-list{
     display: flex;
     justify-content: center;
     flex-wrap: wrap; /* transforma linha em coluna caso ultrapasse o tamanho da tela */
-    gap: 30px;
+    gap: 20px;
 }
 
 .logo:hover, .button-img:hover{
@@ -32,7 +44,7 @@ main{
 }
 
 .logo, .button-img{
-    width: 80px;
+    width: 50px;
 }
 
 #theme-button{
@@ -43,72 +55,43 @@ main{
 .info{
     display: flex;
     justify-content: space-between;
+    background: var(--white);
 
     flex-wrap: wrap;
-    border: 1px solid #f5f5f5;
+    border: 1px solid var(--dark);
     border-radius: 8px;
 }
 
-.info span{
+.poke-name-num{
     padding: 5px;
     text-transform: uppercase;
-    font-size: 17px;
-    color: #f5f5f5;
-}
-
-/* .poke-gif{
-    width: 70px;
-    height: 70px;
-} */
-
-.types{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.grass-type{
-    background: #7ac74c;
-    padding: 8px;
-    border-radius: 10px;
-}
-
-.poison-type{
-    background: #df67ddfb;
-    padding: 8px;
-    border-radius: 10px;
-}
-
-.fire-type{
-    background: #ee8130;
-    padding: 8px;
-    border-radius: 10px;
-}
-
-.flying-type{
-    background: #bdbcbc;
-    padding: 8px;
-    border-radius: 10px;
-}
-
-.water-type{
-    background: #6390f0;
-    padding: 8px;
-    border-radius: 10px;
-}
-
-.insect-type{
-    background: #a6b91a;
-    padding: 8px;
-    border-radius: 10px;
+    font-size: var(--medium);
 }
 
 .desc{
-    background: #d8e3ec;
+    background: var(--white);
     border-radius: 10px;
 
     text-align: right;
+
     max-height: 100px;
     padding-right: 10px;
+
     overflow-y: scroll; /* adiciona um scrool caso ultrapasse a altura */
+}
+/* ===== Scrollbar CSS ===== */
+*::-webkit-scrollbar {
+    width: var(--medium);
+  }
+
+*::-webkit-scrollbar-track {
+    background: var(--white);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--red);
+    border-radius: 10px;
+    border: 3px solid var(--white);
 }

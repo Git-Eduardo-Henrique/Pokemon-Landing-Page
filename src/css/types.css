@@ -1,4 +1,15 @@
-.fire-poke-card, .water-poke-card, .grass-poke-card, .insect-poke-card{
+.types{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.types-icons{
+    height: 15px;
+}
+
+.fire-poke-card, .water-poke-card, .grass-poke-card, .bug-poke-card{
     width: 200px;
     padding: 5px;
 
@@ -13,29 +24,20 @@
     transition: 0.2s ease-in;
 }
 
-.fire-poke-card:hover, .water-poke-card:hover, .grass-poke-card:hover, .insect-poke-card:hover{
+.grass-type, .poison-type, .fire-type, .flying-type, .water-type, .bug-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/* hover dos cards */
+.fire-poke-card:hover, .water-poke-card:hover, .grass-poke-card:hover, .bug-poke-card:hover{
     transform: scale(1.05);
     cursor: pointer;
-}
-
-/* fire type*/
-.fire-poke-card{
-    background: url(../images/backgrounds/fire-background-fixed.png) center center;
-    background-size: cover;
-}
-
-.fire-poke-card:hover{
-    background: url(../images/backgrounds/fire-background.gif) center center;
-}
-
-/* water type */
-.water-poke-card{
-    background: url(../images/backgrounds/water-background-fixed.png) center center;
-    background-size: cover;
-}
-
-.water-poke-card:hover{
-    background: url(../images/backgrounds/water-background.gif) center center;
 }
 
 /* grass type */
@@ -49,13 +51,59 @@
     background-size: cover;
 }
 
+.grass-type{
+    background: #7ac74c;
+}
+
 /* poison type */
-.insect-poke-card{
+.poison-type{
+    background: #df67ddfb;
+}
+
+/* fire type*/
+.fire-poke-card{
+    background: url(../images/backgrounds/fire-background-fixed.png) center center;
+    background-size: cover;
+}
+
+.fire-poke-card:hover{
+    background: url(../images/backgrounds/fire-background.gif) center center;
+}
+
+.fire-type{
+    background: #ee8130;
+}
+
+/* flying type */
+.flying-type{
+    background: #bdbcbc;
+}
+
+/* water type */
+.water-poke-card{
+    background: url(../images/backgrounds/water-background-fixed.png) center center;
+    background-size: cover;
+}
+
+.water-poke-card:hover{
+    background: url(../images/backgrounds/water-background.gif) center center;
+}
+
+.water-type{
+    background: #6390f0;
+}
+
+/* poison type */
+.bug-poke-card{
     background: url(../images/backgrounds/insect-background-fixed.png) center center;
     background-size: cover;
 }
 
-.insect-poke-card:hover{
+.bug-poke-card:hover{
     background: url(../images/backgrounds/insect-background.gif) center center; 
     background-size: cover;
+}
+
+.bug-type{
+    background: #a6b91a;
 }

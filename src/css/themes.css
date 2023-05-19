@@ -1,8 +1,30 @@
-.dark{
-    background: #212121;
-    color: #f5f5f5;
+:root{
+    /* colors */
+    --white: #f3f0f0;
+    --dark: #100F10;
+    --medium-dark: #1b1b1b;
+    --purple: #582965;
 }
 
-.dark .poke-card, .dark .desc{
-    background: #a8a8a8;
+.dark{
+    background: var(--dark);
+    color: var(--white);
+}
+
+.dark .info{
+    background: var(--medium-dark);
+    border: 1px solid var(--white);
+}
+
+.dark .desc{
+    background: var(--medium-dark);
+}
+
+.dark *::-webkit-scrollbar-track{
+    background: var(--medium-dark);
+}
+
+.dark *::-webkit-scrollbar-thumb{
+    background-color: var(--purple);
+    border: 3px solid var(--medium-dark);
 }
