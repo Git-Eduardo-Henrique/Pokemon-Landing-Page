@@ -24,7 +24,7 @@
     transition: 0.2s ease-in;
 }
 
-.grass-type, .poison-type, .fire-type, .flying-type, .water-type, .bug-type{
+.grass-type, .poison-type, .fire-type, .flying-type, .water-type, .bug-type, .dragon-type{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,4 +106,9 @@
 
 .bug-type{
     background: #a6b91a;
+}
+
+/* dragon */
+.dragon-type{
+    background: #8B7DF1;
 }
