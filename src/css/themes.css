@@ -20,11 +20,11 @@
     background: var(--medium-dark);
 }
 
-.dark *::-webkit-scrollbar-track{
+.dark .desc::-webkit-scrollbar-track{
     background: var(--medium-dark);
 }
 
-.dark *::-webkit-scrollbar-thumb{
+.dark .desc::-webkit-scrollbar-thumb{
     background-color: var(--purple);
     border: 3px solid var(--medium-dark);
 }

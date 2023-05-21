@@ -51,6 +51,10 @@ footer{
     color: var(--white);
 }
 
+main{
+    overflow-y: auto;
+}
+
 .poke-list{
     display: flex;
     justify-content: center;
@@ -116,17 +120,17 @@ footer{
     height: 1.5rem;
 }
 /* ===== Scrollbar CSS ===== */
-*::-webkit-scrollbar {
+.desc::-webkit-scrollbar {
     width: var(--medium);
-  }
+}
 
-*::-webkit-scrollbar-track {
+.desc::-webkit-scrollbar-track {
     background: var(--white);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-*::-webkit-scrollbar-thumb {
+.desc::-webkit-scrollbar-thumb {
     background-color: var(--red);
     border-radius: 10px;
     border: 3px solid var(--white);
