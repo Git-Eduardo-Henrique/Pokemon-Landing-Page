@@ -210,6 +210,34 @@ const pokemons = [
         desc: "Its petals are the largest in the world. It fiendishly scatters allergy-causing pollen from its petals."
     },
     {
+        name: "Paras",
+        num: "46",
+        imgsrc: "./src/images/pokemons/gen_one/paras.gif",
+        types: ["bug", "grass"],
+        desc: "Growing out of the bug’s back are mushrooms called tochukaso. The mushrooms grow with the bug host."
+    },
+    {
+        name: "Parasect",
+        num: "47",
+        imgsrc: "./src/images/pokemons/gen_one/parasect.gif",
+        types: ["bug", "grass"],
+        desc: "It scatters toxic spores from the mushroom cap. In China, the spores are used as herbal medicine."
+    },
+    {
+        name: "Venonat",
+        num: "48",
+        imgsrc: "./src/images/pokemons/gen_one/venonat.gif",
+        types: ["bug", "poison"],
+        desc: "Its eyes act as radar, enabling it to be active in darkness. The eyes can also shoot powerful beams."
+    },
+    {
+        name: "Venomoth",
+        num: "49",
+        imgsrc: "./src/images/pokemons/gen_one/venomoth.gif",
+        types: ["bug", "poison"],
+        desc: "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust."
+    },
+    {
         name: "Growlithe",
         num: "58",
         imgsrc: "./src/images/pokemons/gen_one/growlithe.gif",
@@ -301,11 +329,32 @@ const pokemons = [
         desc: "Blue plant vines cloak the POKéMON’s identity in a tangled mass. It entangles anything that gets close."
     },
     {
+        name: "Scyther",
+        num: "123",
+        imgsrc: "./src/images/pokemons/gen_one/scyther.gif",
+        types: ["bug", "flying"],
+        desc: "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly."
+    },
+    {
         name: "Magmar",
         num: "126",
         imgsrc: "./src/images/pokemons/gen_one/magmar.gif",
         types: ["fire"],
         desc: "Found near the mouth of a volcano. This fire-breather’s body temperature is nearly 2,200 degrees Fahrenheit."
+    },
+    {
+        name: "Pinsir",
+        num: "127",
+        imgsrc: "./src/images/pokemons/gen_one/pinsir.gif",
+        types: ["bug"],
+        desc: "Its two long pincer horns are powerful. Once they grip an enemy, they won’t release until the foe is torn."
+    },
+    {
+        name: "Mega Pinsir",
+        num: "127",
+        imgsrc: "./src/images/pokemons/gen_one/pinsir-mega.gif",
+        types: ["bug", "flying"],
+        desc: "Bathed in the energy of Mega Evolution, its wings become unusually developed. It flies at speeds of approximately 30 mph."
     },
     {
         name: "Flareon",
