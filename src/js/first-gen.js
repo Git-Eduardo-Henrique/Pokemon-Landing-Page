@@ -238,6 +238,20 @@ const pokemons = [
         desc: "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust."
     },
     {
+        name: "Psyduck",
+        num: "54",
+        imgsrc: "./src/images/pokemons/gen_one/psyduck.gif",
+        types: ["water"],
+        desc: "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers."
+    },
+    {
+        name: "Golduck",
+        num: "55",
+        imgsrc: "./src/images/pokemons/gen_one/golduck.gif",
+        types: ["water"],
+        desc: "The forelegs are webbed, helping to make it an adept swimmer. It can be seen swimming elegantly in lakes, etc."
+    },
+    {
         name: "Growlithe",
         num: "58",
         imgsrc: "./src/images/pokemons/gen_one/growlithe.gif",
@@ -250,6 +264,27 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/arcanine.gif",
         types: ["fire"],
         desc: "A POKéMON that is described in Chinese legends. It is said to race at an unbelievable speed."
+    },
+    {
+        name: "Poliwag",
+        num: "60",
+        imgsrc: "./src/images/pokemons/gen_one/poliwag.gif",
+        types: ["water"],
+        desc: "Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern."
+    },
+    {
+        name: "Poliwhirl",
+        num: "61",
+        imgsrc: "./src/images/pokemons/gen_one/poliwhirl.gif",
+        types: ["water"],
+        desc: "Its two legs are well developed. Even though it can live on the ground, it prefers living in water."
+    },
+    {
+        name: "Poliwrath",
+        num: "62",
+        imgsrc: "./src/images/pokemons/gen_one/poliwrath.gif",
+        types: ["water", "fighting"],
+        desc: "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers."
     },
     {
         name: "Bellsprout",
@@ -273,6 +308,20 @@ const pokemons = [
         desc: "Lures prey into its mouth with a honeylike aroma. The helpless prey is melted with a dissolving fluid."
     },
     {
+        name: "Tentacool",
+        num: "72",
+        imgsrc: "./src/images/pokemons/gen_one/tentacool.gif",
+        types: ["water", "poison"],
+        desc: "Its eyes are as transparent as crystals. From them, it shoots mysterious beams of light."
+    },
+    {
+        name: "Tentacruel",
+        num: "73",
+        imgsrc: "./src/images/pokemons/gen_one/tentacruel.gif",
+        types: ["water", "poison"],
+        desc: "It has 80 tentacles that move about freely. They can sting, causing poisoning and sharp, stabbing pain."
+    },
+    {
         name: "Ponyta",
         num: "77",
         imgsrc: "./src/images/pokemons/gen_one/ponyta.gif",
@@ -285,6 +334,27 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/rapidash.gif",
         types: ["fire"],
         desc: "It can gallop at a top speed of 150 miles per hour. It can race as fast as a bullet train while ablaze."
+    },
+    {
+        name: "Slowpoke",
+        num: "79",
+        imgsrc: "./src/images/pokemons/gen_one/slowpoke.gif",
+        types: ["water", "psychic"],
+        desc: "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail."
+    },
+    {
+        name: "Slowbro",
+        num: "80",
+        imgsrc: "./src/images/pokemons/gen_one/slowbro.gif",
+        types: ["water", "psychic"],
+        desc: "When a SLOWPOKE went hunting in the sea, its tail was bitten by a SHELLDER. That made it evolve into SLOWBRO."
+    },
+    {
+        name: "Mega Slowbro",
+        num: "80",
+        imgsrc: "./src/images/pokemons/gen_one/slowbro-mega.gif",
+        types: ["water", "psychic"],
+        desc: "When bathed in the energy of Mega Evolution, Shellder converts into impregnable armor. There is virtually no change in Slowpoke."
     },
     {
         name: "Farfetch'd",
@@ -308,6 +378,34 @@ const pokemons = [
         desc: "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger."
     },
     {
+        name: "Seel",
+        num: "86",
+        imgsrc: "./src/images/pokemons/gen_one/seel.gif",
+        types: ["water"],
+        desc: "Covered with light blue fur, its hide is thick and tough. It is active in bitter cold of minus 40 degrees Fahrenheit."
+    },
+    {
+        name: "Shellder",
+        num: "90",
+        imgsrc: "./src/images/pokemons/gen_one/shellder.gif",
+        types: ["water"],
+        desc: "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender."
+    },
+    {
+        name: "Krabby",
+        num: "98",
+        imgsrc: "./src/images/pokemons/gen_one/krabby.gif",
+        types: ["water"],
+        desc: "It can be found near the sea. The large pincers grow back if they are torn out of their sockets."
+    },
+    {
+        name: "Kingler",
+        num: "99",
+        imgsrc: "./src/images/pokemons/gen_one/kingler.gif",
+        types: ["water"],
+        desc: "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move."
+    },
+    {
         name: "Exeggcute",
         num: "102",
         imgsrc: "./src/images/pokemons/gen_one/exeggcute.gif",
@@ -327,6 +425,48 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/tangela.gif",
         types: ["grass"],
         desc: "Blue plant vines cloak the POKéMON’s identity in a tangled mass. It entangles anything that gets close."
+    },
+    {
+        name: "Horsea",
+        num: "116",
+        imgsrc: "./src/images/pokemons/gen_one/horsea.gif",
+        types: ["water"],
+        desc: "It maintains balance using its tail, which is wound up like a coil. It may spray ink from its mouth."
+    },
+    {
+        name: "Seadra",
+        num: "117",
+        imgsrc: "./src/images/pokemons/gen_one/seadra.gif",
+        types: ["water"],
+        desc: "Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes."
+    },
+    {
+        name: "Goldeen",
+        num: "118",
+        imgsrc: "./src/images/pokemons/gen_one/goldeen.gif",
+        types: ["water"],
+        desc: "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots."
+    },
+    {
+        name: "Seaking",
+        num: "119",
+        imgsrc: "./src/images/pokemons/gen_one/seaking.gif",
+        types: ["water"],
+        desc: "The horn on its head is sharp like a drill. It bores a hole in a boulder to make its nest."
+    },
+    {
+        name: "Staryu",
+        num: "120",
+        imgsrc: "./src/images/pokemons/gen_one/staryu.gif",
+        types: ["water"],
+        desc: "It appears in large numbers by seashores. At night, its central core flashes with a red light."
+    },
+    {
+        name: "Starmie",
+        num: "121",
+        imgsrc: "./src/images/pokemons/gen_one/starmie.gif",
+        types: ["water", "psychic"],
+        desc: "This POKéMON has a geometric body. Because of its body, the locals suspect that it is an alien creature."
     },
     {
         name: "Scyther",
@@ -357,11 +497,53 @@ const pokemons = [
         desc: "Bathed in the energy of Mega Evolution, its wings become unusually developed. It flies at speeds of approximately 30 mph."
     },
     {
+        name: "Magikarp",
+        num: "129",
+        imgsrc: "./src/images/pokemons/gen_one/magikarp.gif",
+        types: ["water"],
+        desc: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic POKéMON in the world."
+    },
+    {
+        name: "Gyarados",
+        num: "130",
+        imgsrc: "./src/images/pokemons/gen_one/gyarados.gif",
+        types: ["water", "flying"],
+        desc: "It has an extremely aggressive nature. The HYPER BEAM it shoots from its mouth totally incinerates all targets."
+    },
+    {
+        name: "Mega Gyarados",
+        num: "130",
+        imgsrc: "./src/images/pokemons/gen_one/Gyarados-mega.gif",
+        types: ["water", "dark"],
+        desc: "Mega Evolution also affects its brain, leaving no other function except its destructive instinct to burn everything to cinders."
+    },
+    {
+        name: "Vaporeon",
+        num: "134",
+        imgsrc: "./src/images/pokemons/gen_one/vaporeon.gif",
+        types: ["water"],
+        desc: "Its body’s cellular structure is similar to the molecular composition of water. It can melt invisibly in water."
+    },
+    {
         name: "Flareon",
         num: "136",
         imgsrc: "./src/images/pokemons/gen_one/flareon.gif",
         types: ["fire"],
         desc: "It has a flame bag inside its body. After inhaling deeply, it blows out flames of nearly 3,100 degrees Fahrenheit."
+    },
+    {
+        name: "Omanyte",
+        num: "139",
+        imgsrc: "./src/images/pokemons/gen_one/omanyte.gif",
+        types: ["water", "rock"],
+        desc: "A prehistoric POKéMON that lived in the primordial sea, it swims by twisting its 10 tentacles about."
+    },
+    {
+        name: "Omastar",
+        num: "140",
+        imgsrc: "./src/images/pokemons/gen_one/omastar.gif",
+        types: ["water", "rock"],
+        desc: "Its tentacles are highly developed as if they are hands and feet. As soon as it ensnares prey, it bites."
     },
     {
         name: "Moltres",
