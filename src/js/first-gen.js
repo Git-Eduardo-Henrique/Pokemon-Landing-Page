@@ -175,6 +175,20 @@ const pokemons = [
         desc: "Its huge and magnificent wings can keep it aloft in the sky. It can remain flying a whole day without landing."
     },
     {
+        name: "Vulpix",
+        num: "37",
+        imgsrc: "./src/images/pokemons/gen_one/vulpix.gif",
+        types: ["fire"],
+        desc: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
+    },
+    {
+        name: "Ninetales",
+        num: "38",
+        imgsrc: "./src/images/pokemons/gen_one/ninetales.gif",
+        types: ["fire"],
+        desc: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
+    },
+    {
         name: "Oddish",
         num: "43",
         imgsrc: "./src/images/pokemons/gen_one/oddish.gif",
@@ -196,6 +210,20 @@ const pokemons = [
         desc: "Its petals are the largest in the world. It fiendishly scatters allergy-causing pollen from its petals."
     },
     {
+        name: "Growlithe",
+        num: "58",
+        imgsrc: "./src/images/pokemons/gen_one/growlithe.gif",
+        types: ["fire"],
+        desc: "Very friendly and faithful to people. It will try to repel enemies by barking and biting."
+    },
+    {
+        name: "Arcanine",
+        num: "59",
+        imgsrc: "./src/images/pokemons/gen_one/arcanine.gif",
+        types: ["fire"],
+        desc: "A POKéMON that is described in Chinese legends. It is said to race at an unbelievable speed."
+    },
+    {
         name: "Bellsprout",
         num: "69",
         imgsrc: "./src/images/pokemons/gen_one/bellsprout.gif",
@@ -215,6 +243,20 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/victreebel.gif",
         types: ["grass", "poison"],
         desc: "Lures prey into its mouth with a honeylike aroma. The helpless prey is melted with a dissolving fluid."
+    },
+    {
+        name: "Ponyta",
+        num: "77",
+        imgsrc: "./src/images/pokemons/gen_one/ponyta.gif",
+        types: ["fire"],
+        desc: "Its body is light, and its legs are incredibly powerful. It can clear Ayers Rock in one leap."
+    },
+    {
+        name: "Rapidash",
+        num: "78",
+        imgsrc: "./src/images/pokemons/gen_one/rapidash.gif",
+        types: ["fire"],
+        desc: "It can gallop at a top speed of 150 miles per hour. It can race as fast as a bullet train while ablaze."
     },
     {
         name: "Farfetch'd",
@@ -257,6 +299,27 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/tangela.gif",
         types: ["grass"],
         desc: "Blue plant vines cloak the POKéMON’s identity in a tangled mass. It entangles anything that gets close."
+    },
+    {
+        name: "Magmar",
+        num: "126",
+        imgsrc: "./src/images/pokemons/gen_one/magmar.gif",
+        types: ["fire"],
+        desc: "Found near the mouth of a volcano. This fire-breather’s body temperature is nearly 2,200 degrees Fahrenheit."
+    },
+    {
+        name: "Flareon",
+        num: "136",
+        imgsrc: "./src/images/pokemons/gen_one/flareon.gif",
+        types: ["fire"],
+        desc: "It has a flame bag inside its body. After inhaling deeply, it blows out flames of nearly 3,100 degrees Fahrenheit."
+    },
+    {
+        name: "Moltres",
+        num: "146",
+        imgsrc: "./src/images/pokemons/gen_one/moltres.gif",
+        types: ["fire", "flying"],
+        desc: "One of the legendary bird POKéMON. Those seeing it are overwhelmed by its orange wings that seem to be on fire."
     },
 ];
 
