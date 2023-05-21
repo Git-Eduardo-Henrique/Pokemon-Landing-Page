@@ -161,6 +161,20 @@ const pokemons = [
         desc: "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed."
     },
     {
+        name: "Rattata",
+        num: "19",
+        imgsrc: "./src/images/pokemons/gen_one/rattata.gif",
+        types: ["normal"],
+        desc: "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down."
+    },
+    {
+        name: "Raticate",
+        num: "20",
+        imgsrc: "./src/images/pokemons/gen_one/raticate.gif",
+        types: ["normal"],
+        desc: "Its rear feet have three toes each. They are webbed, enabling it to swim across rivers."
+    },
+    {
         name: "Spearow",
         num: "21",
         imgsrc: "./src/images/pokemons/gen_one/spearow.gif",
@@ -236,6 +250,20 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/venomoth.gif",
         types: ["bug", "poison"],
         desc: "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust."
+    },
+    {
+        name: "Meowth",
+        num: "52",
+        imgsrc: "./src/images/pokemons/gen_one/meowth.gif",
+        types: ["normal"],
+        desc: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow."
+    },
+    {
+        name: "Persian",
+        num: "53",
+        imgsrc: "./src/images/pokemons/gen_one/persian.gif",
+        types: ["normal"],
+        desc: "Has a vicious temperament. Beware if it raises its tail straight up. It is a signal that it is about to pounce and bite."
     },
     {
         name: "Psyduck",
@@ -420,11 +448,39 @@ const pokemons = [
         desc: "It is called “The Walking Tropical Rainforest.” Each of the nuts has a face and a will of its own."
     },
     {
+        name: "Lickitung",
+        num: "108",
+        imgsrc: "./src/images/pokemons/gen_one/lickitung.gif",
+        types: ["normal"],
+        desc: "Its tongue is twice the length of its body. It can be moved like an arm for grabbing food and attacking."
+    },
+    {
+        name: "Chansey",
+        num: "113",
+        imgsrc: "./src/images/pokemons/gen_one/chansey.gif",
+        types: ["normal"],
+        desc: "It lays several eggs a day. The eggs are apparently rich in nutrients and extremely delicious."
+    },
+    {
         name: "Tangela",
         num: "114",
         imgsrc: "./src/images/pokemons/gen_one/tangela.gif",
         types: ["grass"],
         desc: "Blue plant vines cloak the POKéMON’s identity in a tangled mass. It entangles anything that gets close."
+    },
+    {
+        name: "Kangaskhan",
+        num: "115",
+        imgsrc: "./src/images/pokemons/gen_one/kangaskhan.gif",
+        types: ["normal"],
+        desc: "The female raises its offspring in a pouch on its belly. It is skilled at attacking using COMET PUNCH."
+    },
+    {
+        name: "Mega Kangaskhan",
+        num: "115",
+        imgsrc: "./src/images/pokemons/gen_one/kangaskhan-mega.gif",
+        types: ["normal"],
+        desc: "Thanks to Mega Evolution, its child grows. But as the child is good only at fighting and nothing else, its mother feels uneasy about its future."
     },
     {
         name: "Horsea",
@@ -497,6 +553,13 @@ const pokemons = [
         desc: "Bathed in the energy of Mega Evolution, its wings become unusually developed. It flies at speeds of approximately 30 mph."
     },
     {
+        name: "Tauros",
+        num: "128",
+        imgsrc: "./src/images/pokemons/gen_one/tauros.gif",
+        types: ["normal"],
+        desc: "When it is about to TACKLE, it whips its body repeatedly with its three long tails."
+    },
+    {
         name: "Magikarp",
         num: "129",
         imgsrc: "./src/images/pokemons/gen_one/magikarp.gif",
@@ -518,6 +581,20 @@ const pokemons = [
         desc: "Mega Evolution also affects its brain, leaving no other function except its destructive instinct to burn everything to cinders."
     },
     {
+        name: "Ditto",
+        num: "132",
+        imgsrc: "./src/images/pokemons/gen_one/ditto.gif",
+        types: ["normal"],
+        desc: "Capable of copying an opponent’s genetic code to instantly transform itself into a duplicate of the enemy."
+    },
+    {
+        name: "Eevee",
+        num: "133",
+        imgsrc: "./src/images/pokemons/gen_one/eevee.gif",
+        types: ["normal"],
+        desc: "An extremely rare POKéMON that may evolve in a number of different ways depending on stimuli."
+    },
+    {
         name: "Vaporeon",
         num: "134",
         imgsrc: "./src/images/pokemons/gen_one/vaporeon.gif",
@@ -532,6 +609,13 @@ const pokemons = [
         desc: "It has a flame bag inside its body. After inhaling deeply, it blows out flames of nearly 3,100 degrees Fahrenheit."
     },
     {
+        name: "Porygon",
+        num: "137",
+        imgsrc: "./src/images/pokemons/gen_one/porygon.gif",
+        types: ["normal"],
+        desc: "Using the most advanced technologies, scientists finally succeeded in making the first artificial POKéMON."
+    },
+    {
         name: "Omanyte",
         num: "139",
         imgsrc: "./src/images/pokemons/gen_one/omanyte.gif",
@@ -544,6 +628,13 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/omastar.gif",
         types: ["water", "rock"],
         desc: "Its tentacles are highly developed as if they are hands and feet. As soon as it ensnares prey, it bites."
+    },
+    {
+        name: "Snorlax",
+        num: "143",
+        imgsrc: "./src/images/pokemons/gen_one/snorlax.gif",
+        types: ["normal"],
+        desc: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
     },
     {
         name: "Moltres",
