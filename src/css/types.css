@@ -9,7 +9,7 @@
     height: 15px;
 }
 
-.fire-poke-card, .water-poke-card, .grass-poke-card, .bug-poke-card{
+.fire-poke-card, .water-poke-card, .grass-poke-card, .bug-poke-card, .flying-poke-card{
     width: 200px;
     padding: 5px;
 
@@ -24,7 +24,7 @@
     transition: 0.2s ease-in;
 }
 
-.grass-type, .poison-type, .fire-type, .flying-type, .water-type, .bug-type, .dragon-type{
+.grass-type, .poison-type, .fire-type, .flying-type, .water-type, .bug-type, .dragon-type, .normal-type{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,7 +35,7 @@
 }
 
 /* hover dos cards */
-.fire-poke-card:hover, .water-poke-card:hover, .grass-poke-card:hover, .bug-poke-card:hover{
+.fire-poke-card:hover, .water-poke-card:hover, .grass-poke-card:hover, .bug-poke-card:hover, .flying-poke-card:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -75,8 +75,17 @@
 }
 
 /* flying type */
+.flying-poke-card{
+    background: url(../images/backgrounds/flying-background-fixed.png) center center;
+    background-size: cover;
+}
+
+.flying-poke-card:hover{
+    background: url(../images/backgrounds/flying-background.gif) center center;
+}
+
 .flying-type{
-    background: #bdbcbc;
+    background: #9AA8FF;
 }
 
 /* water type */
@@ -111,4 +120,9 @@
 /* dragon */
 .dragon-type{
     background: #8B7DF1;
+}
+
+/* normal */
+.normal-type{
+    background: #B7B7A8;
 }
