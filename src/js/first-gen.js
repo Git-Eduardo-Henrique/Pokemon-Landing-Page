@@ -168,10 +168,24 @@ const pokemons = [
         desc: "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down."
     },
     {
+        name: "Alolan Rattata",
+        num: "19",
+        imgsrc: "./src/images/pokemons/gen_one/rattata-alola.gif",
+        types: ["dark", "normal"],
+        desc: "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down."
+    },
+    {
         name: "Raticate",
         num: "20",
         imgsrc: "./src/images/pokemons/gen_one/raticate.gif",
         types: ["normal"],
+        desc: "Its rear feet have three toes each. They are webbed, enabling it to swim across rivers."
+    },
+    {
+        name: "Alolan Raticate",
+        num: "20",
+        imgsrc: "./src/images/pokemons/gen_one/raticate-alola.gif",
+        types: ["dark", "normal"],
         desc: "Its rear feet have three toes each. They are webbed, enabling it to swim across rivers."
     },
     {
@@ -259,10 +273,24 @@ const pokemons = [
         desc: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow."
     },
     {
+        name: "Alolan Meowth",
+        num: "52",
+        imgsrc: "./src/images/pokemons/gen_one/meowth-alola.gif",
+        types: ["dark"],
+        desc: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow."
+    },
+    {
         name: "Persian",
         num: "53",
         imgsrc: "./src/images/pokemons/gen_one/persian.gif",
         types: ["normal"],
+        desc: "Has a vicious temperament. Beware if it raises its tail straight up. It is a signal that it is about to pounce and bite."
+    },
+    {
+        name: "Alolan Persian",
+        num: "53",
+        imgsrc: "./src/images/pokemons/gen_one/persian-alola.gif",
+        types: ["dark"],
         desc: "Has a vicious temperament. Beware if it raises its tail straight up. It is a signal that it is about to pounce and bite."
     },
     {
@@ -411,6 +439,20 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/seel.gif",
         types: ["water"],
         desc: "Covered with light blue fur, its hide is thick and tough. It is active in bitter cold of minus 40 degrees Fahrenheit."
+    },
+    {
+        name: "Alolan Grimer",
+        num: "88",
+        imgsrc: "./src/images/pokemons/gen_one/grimer-alola.gif",
+        types: ["dark", "poison"],
+        desc: "Sludge exposed to X rays from the moon transformed into GRIMER. It loves feeding on filthy things."
+    },
+    {
+        name: "Alolan Muk",
+        num: "89",
+        imgsrc: "./src/images/pokemons/gen_one/muk-alola.gif",
+        types: ["dark", "poison"],
+        desc: "It is usually undetectable because it blends in with the ground. Touching it can cause terrible poisoning."
     },
     {
         name: "Shellder",
