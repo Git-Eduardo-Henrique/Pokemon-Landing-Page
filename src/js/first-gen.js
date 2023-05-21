@@ -203,6 +203,62 @@ const pokemons = [
         desc: "Its huge and magnificent wings can keep it aloft in the sky. It can remain flying a whole day without landing."
     },
     {
+        name: "Ekans",
+        num: "23",
+        imgsrc: "./src/images/pokemons/gen_one/ekans.gif",
+        types: ["poison"],
+        desc: "A very common sight in grassland, etc. It flicks its tongue in and out to sense danger in its surroundings."
+    },
+    {
+        name: "Arbok",
+        num: "24",
+        imgsrc: "./src/images/pokemons/gen_one/arbok.gif",
+        types: ["poison"],
+        desc: "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern."
+    },
+    {
+        name: "Nidoran ♀",
+        num: "29",
+        imgsrc: "./src/images/pokemons/gen_one/nidoran_f.gif",
+        types: ["poison"],
+        desc: "Though small, it must be treated with caution because of its powerfully toxic barbs. The female has smaller horns."
+    },
+    {
+        name: "Nidorina",
+        num: "30",
+        imgsrc: "./src/images/pokemons/gen_one/nidorina.gif",
+        types: ["poison"],
+        desc: "The female has a gentle temperament. It emits ultrasonic cries that have the power to befuddle foes."
+    },
+    {
+        name: "Nidoqueen",
+        num: "31",
+        imgsrc: "./src/images/pokemons/gen_one/nidoqueen.gif",
+        types: ["poison", "ground"],
+        desc: "The body is covered by stiff, needle-like scales. If it becomes excited, the needles bristle outwards."
+    },
+    {
+        name: "Nidoran ♂",
+        num: "32",
+        imgsrc: "./src/images/pokemons/gen_one/nidoran_m.gif",
+        types: ["poison"],
+        desc: "Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered."
+    },
+    {
+        name: "Nidorino",
+        num: "33",
+        imgsrc: "./src/images/pokemons/gen_one/nidorino.gif",
+        types: ["poison"],
+        desc: "It is easily angered. By swinging its well-developed horn wildly, it can even punch through diamond."
+    },
+    {
+        name: "Nidoking",
+        num: "34",
+        imgsrc: "./src/images/pokemons/gen_one/nidoking.gif",
+        types: ["poison", "ground"],
+        desc: "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn as it contains venom."
+    },
+    {
         name: "Vulpix",
         num: "37",
         imgsrc: "./src/images/pokemons/gen_one/vulpix.gif",
@@ -215,6 +271,20 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/ninetales.gif",
         types: ["fire"],
         desc: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
+    },
+    {
+        name: "Zubat",
+        num: "41",
+        imgsrc: "./src/images/pokemons/gen_one/zubat.gif",
+        types: ["poison", "flying"],
+        desc: "It has no eyes. Instead, it relies on its ultrasonic cries for echo location to flit about in darkness."
+    },
+    {
+        name: "Golbat",
+        num: "42",
+        imgsrc: "./src/images/pokemons/gen_one/golbat.gif",
+        types: ["poison", "flying"],
+        desc: "It clamps down on its prey with needle-sharp fangs and drains over 10 ounces of blood in one gulp."
     },
     {
         name: "Oddish",
@@ -441,11 +511,25 @@ const pokemons = [
         desc: "Covered with light blue fur, its hide is thick and tough. It is active in bitter cold of minus 40 degrees Fahrenheit."
     },
     {
+        name: "Grimer",
+        num: "88",
+        imgsrc: "./src/images/pokemons/gen_one/grimer.gif",
+        types: ["poison"],
+        desc: "Sludge exposed to X rays from the moon transformed into GRIMER. It loves feeding on filthy things."
+    },
+    {
         name: "Alolan Grimer",
         num: "88",
         imgsrc: "./src/images/pokemons/gen_one/grimer-alola.gif",
         types: ["dark", "poison"],
         desc: "Sludge exposed to X rays from the moon transformed into GRIMER. It loves feeding on filthy things."
+    },
+    {
+        name: "Muk",
+        num: "89",
+        imgsrc: "./src/images/pokemons/gen_one/muk.gif",
+        types: ["poison"],
+        desc: "It is usually undetectable because it blends in with the ground. Touching it can cause terrible poisoning."
     },
     {
         name: "Alolan Muk",
@@ -495,6 +579,20 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/lickitung.gif",
         types: ["normal"],
         desc: "Its tongue is twice the length of its body. It can be moved like an arm for grabbing food and attacking."
+    },
+    {
+        name: "Koffing",
+        num: "109",
+        imgsrc: "./src/images/pokemons/gen_one/koffing.gif",
+        types: ["poison"],
+        desc: "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby."
+    },
+    {
+        name: "Weezing",
+        num: "110",
+        imgsrc: "./src/images/pokemons/gen_one/weezing.gif",
+        types: ["poison"],
+        desc: "Very rarely, a sudden mutation can result in two small KOFFING twins becoming conjoined as a WEEZING."
     },
     {
         name: "Chansey",
