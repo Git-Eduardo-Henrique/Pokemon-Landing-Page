@@ -217,6 +217,27 @@ const pokemons = [
         desc: "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern."
     },
     {
+        name: "Pikachu",
+        num: "25",
+        imgsrc: "./src/images/pokemons/gen_one/pikachu.gif",
+        types: ["electric"],
+        desc: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
+    },
+    {
+        name: "Raichu",
+        num: "26",
+        imgsrc: "./src/images/pokemons/gen_one/raichu.gif",
+        types: ["electric"],
+        desc: "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint."
+    },
+    {
+        name: "Alolan Raichu",
+        num: "26",
+        imgsrc: "./src/images/pokemons/gen_one/raichu-alola.gif",
+        types: ["electric", "psychic"],
+        desc: "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint."
+    },
+    {
         name: "Nidoran ♀",
         num: "29",
         imgsrc: "./src/images/pokemons/gen_one/nidoran_f.gif",
@@ -448,6 +469,27 @@ const pokemons = [
         desc: "It has 80 tentacles that move about freely. They can sting, causing poisoning and sharp, stabbing pain."
     },
     {
+        name: "Alolan Geodude",
+        num: "74",
+        imgsrc: "./src/images/pokemons/gen_one/geodude-alola.gif",
+        types: ["electric", "rock"],
+        desc: "Its round form makes it easy to pick up. Some people have used them to hurl at each other in a snowball fight."
+    },
+    {
+        name: "Alolan Graveler",
+        num: "75",
+        imgsrc: "./src/images/pokemons/gen_one/graveler-alola.gif",
+        types: ["electric", "rock"],
+        desc: "Be careful while hiking on mountain trails. GRAVELER may come rolling down the path without slowing."
+    },
+    {
+        name: "Alolan Golem",
+        num: "76",
+        imgsrc: "./src/images/pokemons/gen_one/golem-alola.gif",
+        types: ["electric", "rock"],
+        desc: "It is enclosed in a hard shell that is as rugged as slabs of rock. It sheds skin once a year to grow larger."
+    },
+    {
         name: "Ponyta",
         num: "77",
         imgsrc: "./src/images/pokemons/gen_one/ponyta.gif",
@@ -481,6 +523,20 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/slowbro-mega.gif",
         types: ["water", "psychic"],
         desc: "When bathed in the energy of Mega Evolution, Shellder converts into impregnable armor. There is virtually no change in Slowpoke."
+    },
+    {
+        name: "Magnemite",
+        num: "81",
+        imgsrc: "./src/images/pokemons/gen_one/magnemite.gif",
+        types: ["electric", "steel"],
+        desc: "It moves while constantly hovering. It discharges THUNDER WAVE and so on from the units at its sides."
+    },
+    {
+        name: "Magneton",
+        num: "82",
+        imgsrc: "./src/images/pokemons/gen_one/magneton.gif",
+        types: ["electric", "steel"],
+        desc: "A linked cluster formed of several MAGNEMITE. It discharges powerful magnetic waves at high voltage."
     },
     {
         name: "Farfetch'd",
@@ -558,6 +614,20 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/kingler.gif",
         types: ["water"],
         desc: "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move."
+    },
+    {
+        name: "Voltorb",
+        num: "100",
+        imgsrc: "./src/images/pokemons/gen_one/voltorb.gif",
+        types: ["electric"],
+        desc: "A life-form whose identity is unknown. It is said to SCREECH or suddenly SELFDESTRUCT."
+    },
+    {
+        name: "Electrode",
+        num: "101",
+        imgsrc: "./src/images/pokemons/gen_one/electrode.gif",
+        types: ["electric"],
+        desc: "It explodes in response to even minor stimuli. It is feared, with the nickname of “The Bomb Ball.”"
     },
     {
         name: "Exeggcute",
@@ -672,6 +742,13 @@ const pokemons = [
         desc: "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly."
     },
     {
+        name: "Electabuzz",
+        num: "125",
+        imgsrc: "./src/images/pokemons/gen_one/electabuzz.gif",
+        types: ["electric"],
+        desc: "	It loves to feed on strong electricity. It occasionally appears around large power plants and so on.”"
+    },
+    {
         name: "Magmar",
         num: "126",
         imgsrc: "./src/images/pokemons/gen_one/magmar.gif",
@@ -742,6 +819,13 @@ const pokemons = [
         desc: "Its body’s cellular structure is similar to the molecular composition of water. It can melt invisibly in water."
     },
     {
+        name: "Jolteon",
+        num: "135",
+        imgsrc: "./src/images/pokemons/gen_one/jolteon.gif",
+        types: ["electric"],
+        desc: "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes."
+    },
+    {
         name: "Flareon",
         num: "136",
         imgsrc: "./src/images/pokemons/gen_one/flareon.gif",
@@ -775,6 +859,13 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/snorlax.gif",
         types: ["normal"],
         desc: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
+    },
+    {
+        name: "Zapdos",
+        num: "145",
+        imgsrc: "./src/images/pokemons/gen_one/zapdos.gif",
+        types: ["electric", "flying"],
+        desc: "One of the legendary bird POKéMON. While it is flying, it makes crackling and snapping sounds."
     },
     {
         name: "Moltres",
