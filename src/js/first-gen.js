@@ -294,6 +294,20 @@ const pokemons = [
         desc: "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn as it contains venom."
     },
     {
+        name: "Clefairy",
+        num: "35",
+        imgsrc: "./src/images/pokemons/gen_one/clefairy.gif",
+        types: ["fairy"],
+        desc: "Its adorable appearance makes it popular as a pet. However, it is rare and difficult to find."
+    },
+    {
+        name: "Clefable",
+        num: "36",
+        imgsrc: "./src/images/pokemons/gen_one/clefable.gif",
+        types: ["fairy"],
+        desc: "It has an acute sense of hearing. It can easily hear a pin being dropped nearly 1,100 yards away."
+    },
+    {
         name: "Vulpix",
         num: "37",
         imgsrc: "./src/images/pokemons/gen_one/vulpix.gif",
@@ -306,6 +320,20 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/ninetales.gif",
         types: ["fire"],
         desc: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
+    },
+    {
+        name: "Jigglypuff",
+        num: "39",
+        imgsrc: "./src/images/pokemons/gen_one/jigglypuff.gif",
+        types: ["fairy", "normal"],
+        desc: "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
+    },
+    {
+        name: "Wigglytuff",
+        num: "40",
+        imgsrc: "./src/images/pokemons/gen_one/wigglytuff.gif",
+        types: ["fairy", "normal"],
+        desc: "Its fur is extremely fine, dense, and supple. The exquisitely pleasant fur conveys an image of luxury."
     },
     {
         name: "Zubat",
