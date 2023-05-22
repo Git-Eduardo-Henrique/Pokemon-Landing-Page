@@ -238,6 +238,20 @@ const pokemons = [
         desc: "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint."
     },
     {
+        name: "Sandshrew",
+        num: "27",
+        imgsrc: "./src/images/pokemons/gen_one/sandshrew.gif",
+        types: ["ground"],
+        desc: "It burrows and lives underground. If threatened, it curls itself up into a ball for protection."
+    },
+    {
+        name: "Sandslash",
+        num: "28",
+        imgsrc: "./src/images/pokemons/gen_one/sandslash.gif",
+        types: ["ground"],
+        desc: "It is adept at attacking with the spines on its back and its sharp claws while quickly scurrying about."
+    },
+    {
         name: "Nidoran ♀",
         num: "29",
         imgsrc: "./src/images/pokemons/gen_one/nidoran_f.gif",
@@ -355,6 +369,34 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/venomoth.gif",
         types: ["bug", "poison"],
         desc: "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust."
+    },
+    {
+        name: "Diglett",
+        num: "50",
+        imgsrc: "./src/images/pokemons/gen_one/diglett.gif",
+        types: ["ground"],
+        desc: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
+    },
+    {
+        name: "Alolan Diglett",
+        num: "50",
+        imgsrc: "./src/images/pokemons/gen_one/diglett-alola.gif",
+        types: ["ground", "steel"],
+        desc: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
+    },
+    {
+        name: "Dugtrio",
+        num: "51",
+        imgsrc: "./src/images/pokemons/gen_one/dugtrio.gif",
+        types: ["ground"],
+        desc: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction."
+    },
+    {
+        name: "Alolan Dugtrio",
+        num: "51",
+        imgsrc: "./src/images/pokemons/gen_one/dugtrio-alola.gif",
+        types: ["ground", "steel"],
+        desc: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction."
     },
     {
         name: "Meowth",
@@ -670,6 +712,20 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/exeggutor.gif",
         types: ["grass", "psychic"],
         desc: "It is called “The Walking Tropical Rainforest.” Each of the nuts has a face and a will of its own."
+    },
+    {
+        name: "Cubone",
+        num: "104",
+        imgsrc: "./src/images/pokemons/gen_one/cubone.gif",
+        types: ["ground"],
+        desc: "It wears the skull of its dead mother on its head. When it becomes lonesome, it is said to cry loudly."
+    },
+    {
+        name: "Marowak",
+        num: "105",
+        imgsrc: "./src/images/pokemons/gen_one/marowak.gif",
+        types: ["ground"],
+        desc: "It is small and was originally very weak. Its temperament turned ferocious when it began using bones."
     },
     {
         name: "Alolan Marowak",
