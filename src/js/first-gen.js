@@ -602,6 +602,34 @@ const pokemons = [
         desc: "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender."
     },
     {
+        name: "Gastly",
+        num: "92",
+        imgsrc: "./src/images/pokemons/gen_one/gastly.gif",
+        types: ["ghost", "poison"],
+        desc: "A being that exists as a thin gas. It can topple an Indian elephant by enveloping the prey in two seconds."
+    },
+    {
+        name: "Haunter",
+        num: "93",
+        imgsrc: "./src/images/pokemons/gen_one/haunter.gif",
+        types: ["ghost", "poison"],
+        desc: "If you get the feeling of being watched in darkness when nobody is around, HAUNTER is there."
+    },
+    {
+        name: "Gengar",
+        num: "94",
+        imgsrc: "./src/images/pokemons/gen_one/gengar.gif",
+        types: ["ghost", "poison"],
+        desc: "It is said to emerge from darkness to steal the lives of those who become lost in mountains."
+    },
+    {
+        name: "Mega Gengar",
+        num: "94",
+        imgsrc: "./src/images/pokemons/gen_one/gengar-mega.gif",
+        types: ["ghost", "poison"],
+        desc: "The energy of Mega Evolution awakened it. It sinks into another dimension, where it keeps a patient watch for its chance to attack."
+    },
+    {
         name: "Krabby",
         num: "98",
         imgsrc: "./src/images/pokemons/gen_one/krabby.gif",
@@ -642,6 +670,13 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/exeggutor.gif",
         types: ["grass", "psychic"],
         desc: "It is called “The Walking Tropical Rainforest.” Each of the nuts has a face and a will of its own."
+    },
+    {
+        name: "Alolan Marowak",
+        num: "105",
+        imgsrc: "./src/images/pokemons/gen_one/marowak-alola.gif",
+        types: ["ghost", "fire"],
+        desc: "It is small and was originally very weak. Its temperament turned ferocious when it began using bones."
     },
     {
         name: "Lickitung",
@@ -865,7 +900,7 @@ const pokemons = [
         num: "145",
         imgsrc: "./src/images/pokemons/gen_one/zapdos.gif",
         types: ["electric", "flying"],
-        desc: "One of the legendary bird POKéMON. While it is flying, it makes crackling and snapping sounds."
+        desc: "One of the legendary bird POKéMON. While it is flying, it makes crackling and snapping sounds. cv"
     },
     {
         name: "Moltres",
