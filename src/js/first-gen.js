@@ -469,6 +469,20 @@ const pokemons = [
         desc: "The forelegs are webbed, helping to make it an adept swimmer. It can be seen swimming elegantly in lakes, etc."
     },
     {
+        name: "Mankey",
+        num: "56",
+        imgsrc: "./src/images/pokemons/gen_one/mankey.gif",
+        types: ["fighting"],
+        desc: "Light and agile on its feet, and ferocious in temperament. When angered, it flies into an uncontrollable frenzy."
+    },
+    {
+        name: "Primeape",
+        num: "57",
+        imgsrc: "./src/images/pokemons/gen_one/primeape.gif",
+        types: ["fighting"],
+        desc: "It is always outrageously furious. If it gives chase, it will tenaciously track the target no matter how far."
+    },
+    {
         name: "Growlithe",
         num: "58",
         imgsrc: "./src/images/pokemons/gen_one/growlithe.gif",
@@ -502,6 +516,27 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/poliwrath.gif",
         types: ["water", "fighting"],
         desc: "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers."
+    },
+    {
+        name: "Machop",
+        num: "66",
+        imgsrc: "./src/images/pokemons/gen_one/machop.gif",
+        types: ["fighting"],
+        desc: "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups."
+    },
+    {
+        name: "Machoke",
+        num: "67",
+        imgsrc: "./src/images/pokemons/gen_one/machoke.gif",
+        types: ["fighting"],
+        desc: "Its formidable body never gets tired. It helps people by doing work such as the moving of heavy goods."
+    },
+    {
+        name: "Machamp",
+        num: "68",
+        imgsrc: "./src/images/pokemons/gen_one/machamp.gif",
+        types: ["fighting"],
+        desc: "Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds."
     },
     {
         name: "Bellsprout",
@@ -763,6 +798,20 @@ const pokemons = [
         desc: "It is small and was originally very weak. Its temperament turned ferocious when it began using bones."
     },
     {
+        name: "Hitmonlee",
+        num: "106",
+        imgsrc: "./src/images/pokemons/gen_one/hitmonlee.gif",
+        types: ["fighting"],
+        desc: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."
+    },
+    {
+        name: "Hitmonchan",
+        num: "107",
+        imgsrc: "./src/images/pokemons/gen_one/hitmonchan.gif",
+        types: ["fighting"],
+        desc: "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train."
+    },
+    {
         name: "Lickitung",
         num: "108",
         imgsrc: "./src/images/pokemons/gen_one/lickitung.gif",
@@ -914,7 +963,7 @@ const pokemons = [
         num: "130",
         imgsrc: "./src/images/pokemons/gen_one/Gyarados-mega.gif",
         types: ["water", "dark"],
-        desc: "Mega Evolution also affects its brain, leaving no other function except its destructive instinct to burn everything to cinders."
+        desc: "Mega Evolution also affects its brain, leaving no other function except its destructive instinct to burn everything to cinders.  "
     },
     {
         name: "Ditto",
