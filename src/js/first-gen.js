@@ -630,6 +630,13 @@ const pokemons = [
         desc: "It has 80 tentacles that move about freely. They can sting, causing poisoning and sharp, stabbing pain."
     },
     {
+        name: "Geodude",
+        num: "74",
+        imgsrc: "./src/images/pokemons/gen_one/geodude.gif",
+        types: ["rock", "ground"],
+        desc: "Its round form makes it easy to pick up. Some people have used them to hurl at each other in a snowball fight."
+    },
+    {
         name: "Alolan Geodude",
         num: "74",
         imgsrc: "./src/images/pokemons/gen_one/geodude-alola.gif",
@@ -637,11 +644,25 @@ const pokemons = [
         desc: "Its round form makes it easy to pick up. Some people have used them to hurl at each other in a snowball fight."
     },
     {
+        name: "Graveler",
+        num: "75",
+        imgsrc: "./src/images/pokemons/gen_one/graveler.gif",
+        types: ["rock", "ground"],
+        desc: "Be careful while hiking on mountain trails. GRAVELER may come rolling down the path without slowing."
+    },
+    {
         name: "Alolan Graveler",
         num: "75",
         imgsrc: "./src/images/pokemons/gen_one/graveler-alola.gif",
         types: ["electric", "rock"],
         desc: "Be careful while hiking on mountain trails. GRAVELER may come rolling down the path without slowing."
+    },
+    {
+        name: "Golem",
+        num: "76",
+        imgsrc: "./src/images/pokemons/gen_one/golem.gif",
+        types: ["rock", "ground"],
+        desc: "It is enclosed in a hard shell that is as rugged as slabs of rock. It sheds skin once a year to grow larger."
     },
     {
         name: "Alolan Golem",
@@ -805,6 +826,13 @@ const pokemons = [
         desc: "The energy of Mega Evolution awakened it. It sinks into another dimension, where it keeps a patient watch for its chance to attack."
     },
     {
+        name: "Onix",
+        num: "95",
+        imgsrc: "./src/images/pokemons/gen_one/onix.gif",
+        types: ["rock", "ground"],
+        desc: "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour."
+    },
+    {
         name: "Drowzee",
         num: "96",
         imgsrc: "./src/images/pokemons/gen_one/drowzee.gif",
@@ -915,6 +943,20 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/weezing.gif",
         types: ["poison"],
         desc: "Very rarely, a sudden mutation can result in two small KOFFING twins becoming conjoined as a WEEZING."
+    },
+    {
+        name: "Rhyhorn",
+        num: "111",
+        imgsrc: "./src/images/pokemons/gen_one/rhyhorn.gif",
+        types: ["rock", "ground"],
+        desc: "Strong, but not too bright, this POKéMON can shatter even a skyscraper with its charging TACKLES."
+    },
+    {
+        name: "Rhydon",
+        num: "112",
+        imgsrc: "./src/images/pokemons/gen_one/rhydon.gif",
+        types: ["rock", "ground"],
+        desc: "	It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn."
     },
     {
         name: "Chansey",
@@ -1114,17 +1156,45 @@ const pokemons = [
     },
     {
         name: "Omanyte",
-        num: "139",
+        num: "138",
         imgsrc: "./src/images/pokemons/gen_one/omanyte.gif",
         types: ["water", "rock"],
         desc: "A prehistoric POKéMON that lived in the primordial sea, it swims by twisting its 10 tentacles about."
     },
     {
         name: "Omastar",
-        num: "140",
+        num: "139",
         imgsrc: "./src/images/pokemons/gen_one/omastar.gif",
         types: ["water", "rock"],
         desc: "Its tentacles are highly developed as if they are hands and feet. As soon as it ensnares prey, it bites."
+    },
+    {
+        name: "Kabuto",
+        num: "140",
+        imgsrc: "./src/images/pokemons/gen_one/kabuto.gif",
+        types: ["rock", "water"],
+        desc: "This POKéMON was regenerated from the fossil of an ancient creature. It protects itself with a hard shell."
+    },
+    {
+        name: "Kabutops",
+        num: "141",
+        imgsrc: "./src/images/pokemons/gen_one/kabutops.gif",
+        types: ["rock", "water"],
+        desc: "It swims freely through water. It catches prey with its scythe-like arms and drains the victim’s fluids."
+    },
+    {
+        name: "Aerodactyl",
+        num: "142",
+        imgsrc: "./src/images/pokemons/gen_one/aerodactyl.gif",
+        types: ["rock", "flying"],
+        desc: "It was regenerated from a dinosaur’s genetic matter that was found in amber. It flies with high-pitched cries."
+    },
+    {
+        name: "Mega Aerodactyl",
+        num: "142",
+        imgsrc: "./src/images/pokemons/gen_one/aerodactyl-mega.gif",
+        types: ["rock", "flying"],
+        desc: "When it Mega Evolves, it becomes more vicious than ever before. Some say that’s because its excess of power is causing it pain."
     },
     {
         name: "Snorlax",
