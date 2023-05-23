@@ -245,10 +245,24 @@ const pokemons = [
         desc: "It burrows and lives underground. If threatened, it curls itself up into a ball for protection."
     },
     {
+        name: "Alolan Sandshrew",
+        num: "27",
+        imgsrc: "./src/images/pokemons/gen_one/sandshrew-alola.gif",
+        types: ["ice", "steel"],
+        desc: "It burrows and lives underground. If threatened, it curls itself up into a ball for protection."
+    },
+    {
         name: "Sandslash",
         num: "28",
         imgsrc: "./src/images/pokemons/gen_one/sandslash.gif",
         types: ["ground"],
+        desc: "It is adept at attacking with the spines on its back and its sharp claws while quickly scurrying about."
+    },
+    {
+        name: "Alolan Sandslash",
+        num: "28",
+        imgsrc: "./src/images/pokemons/gen_one/sandslash-alola.gif",
+        types: ["ice", "steel"],
         desc: "It is adept at attacking with the spines on its back and its sharp claws while quickly scurrying about."
     },
     {
@@ -315,10 +329,24 @@ const pokemons = [
         desc: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
     },
     {
+        name: "Alolan Vulpix",
+        num: "37",
+        imgsrc: "./src/images/pokemons/gen_one/vulpix-alola.gif",
+        types: ["ice"],
+        desc: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
+    },
+    {
         name: "Ninetales",
         num: "38",
         imgsrc: "./src/images/pokemons/gen_one/ninetales.gif",
         types: ["fire"],
+        desc: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
+    },
+    {
+        name: "Alolan Ninetales",
+        num: "38",
+        imgsrc: "./src/images/pokemons/gen_one/ninetales-alola.gif",
+        types: ["ice", "fairy"],
         desc: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
     },
     {
@@ -700,6 +728,13 @@ const pokemons = [
         desc: "Covered with light blue fur, its hide is thick and tough. It is active in bitter cold of minus 40 degrees Fahrenheit."
     },
     {
+        name: "Dewgong",
+        num: "87",
+        imgsrc: "./src/images/pokemons/gen_one/dewgong.gif",
+        types: ["ice", "water"],
+        desc: "Its body is covered with a pure white fur. The colder the weather, the more active it becomes."
+    },
+    {
         name: "Grimer",
         num: "88",
         imgsrc: "./src/images/pokemons/gen_one/grimer.gif",
@@ -733,6 +768,13 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/shellder.gif",
         types: ["water"],
         desc: "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender."
+    },
+    {
+        name: "Cloyster",
+        num: "91",
+        imgsrc: "./src/images/pokemons/gen_one/cloyster.gif",
+        types: ["ice", "water"],
+        desc: "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking."
     },
     {
         name: "Gastly",
@@ -959,6 +1001,13 @@ const pokemons = [
         desc: "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly."
     },
     {
+        name: "Jynx",
+        num: "124",
+        imgsrc: "./src/images/pokemons/gen_one/jynx.gif",
+        types: ["ice", "psychic"],
+        desc: "It speaks using a language that sounds human. Research is under way to determine what is being said."
+    },
+    {
         name: "Electabuzz",
         num: "125",
         imgsrc: "./src/images/pokemons/gen_one/electabuzz.gif",
@@ -1010,9 +1059,16 @@ const pokemons = [
     {
         name: "Mega Gyarados",
         num: "130",
-        imgsrc: "./src/images/pokemons/gen_one/Gyarados-mega.gif",
+        imgsrc: "./src/images/pokemons/gen_one/gyaradosmega.gif",
         types: ["water", "dark"],
         desc: "Mega Evolution also affects its brain, leaving no other function except its destructive instinct to burn everything to cinders.  "
+    },
+    {
+        name: "Lapras",
+        num: "131",
+        imgsrc: "./src/images/pokemons/gen_one/lapras.gif",
+        types: ["ice", "water"],
+        desc: "Its high intelligence enables it to understand human speech. It likes to ferry people on its back."
     },
     {
         name: "Ditto",
@@ -1076,6 +1132,13 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/snorlax.gif",
         types: ["normal"],
         desc: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
+    },
+    {
+        name: "Articuno",
+        num: "144",
+        imgsrc: "./src/images/pokemons/gen_one/articuno.gif",
+        types: ["ice", "flying"],
+        desc: "	One of the legendary bird POKéMON. With its long tail trailing behind, its flying form is magnificent."
     },
     {
         name: "Zapdos",
