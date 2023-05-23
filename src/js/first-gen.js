@@ -1225,6 +1225,27 @@ const pokemons = [
         desc: "One of the legendary bird POKéMON. Those seeing it are overwhelmed by its orange wings that seem to be on fire."
     },
     {
+        name: "Dratini",
+        num: "147",
+        imgsrc: "./src/images/pokemons/gen_one/dratini.gif",
+        types: ["dragon"],
+        desc: "Even the young can exceed 6.5 feet in length. It grows larger by repeatedly shedding skin."
+    },
+    {
+        name: "Dragonair",
+        num: "148",
+        imgsrc: "./src/images/pokemons/gen_one/dragonair.gif",
+        types: ["dragon"],
+        desc: "It is said to live in seas and lakes. Even though it has no wings, it has been seen flying occasionally."
+    },
+    {
+        name: "Dragonite",
+        num: "149",
+        imgsrc: "./src/images/pokemons/gen_one/dragonite.gif",
+        types: ["dragon"],
+        desc: "It can fly in spite of its big and bulky physique. It circles the globe in just 16 hours."
+    },
+    {
         name: "Mewtwo",
         num: "150",
         imgsrc: "./src/images/pokemons/gen_one/mewtwo.gif",

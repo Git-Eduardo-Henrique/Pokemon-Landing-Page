@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
 }
 
 .types-icons{
@@ -11,7 +11,7 @@
 
 .fire-poke-card, .water-poke-card, .grass-poke-card, .bug-poke-card, .flying-poke-card, .normal-poke-card, .dark-poke-card,
 .poison-poke-card, .electric-poke-card, .ghost-poke-card, .ground-poke-card, .fairy-poke-card, .fighting-poke-card,
-.psychic-poke-card, .ice-poke-card, .rock-poke-card{
+.psychic-poke-card, .ice-poke-card, .rock-poke-card, .dragon-poke-card{
     width: 200px;
     padding: 5px;
 
@@ -33,7 +33,7 @@
     justify-content: space-between;
     gap: 5px;
 
-    padding: 6px;
+    padding: 5px;
     border-radius: 10px;
 }
 
@@ -41,7 +41,7 @@
 .fire-poke-card:hover, .water-poke-card:hover, .grass-poke-card:hover, .bug-poke-card:hover, .flying-poke-card:hover,
 .normal-poke-card:hover, .dark-poke-card:hover, .poison-poke-card:hover, .electric-poke-card:hover, .ghost-poke-card:hover,
 .ground-poke-card:hover, .fairy-poke-card:hover, .fighting-poke-card:hover, .psychic-poke-card:hover, .ice-poke-card:hover,
-.rock-poke-card:hover{
+.rock-poke-card:hover, .dragon-poke-card:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -133,6 +133,16 @@
 }
 
 /* dragon */
+.dragon-poke-card{
+    background: url(../images/backgrounds/dragon-background-fixed.png) center center; 
+    background-size: cover;
+}
+
+.dragon-poke-card:hover{
+    background: url(../images/backgrounds/dragon-background.gif) center center; 
+    background-size: cover;
+}
+
 .dragon-type{
     background: #8B7DF1;
 }
