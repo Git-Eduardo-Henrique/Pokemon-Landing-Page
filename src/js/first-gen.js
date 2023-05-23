@@ -518,6 +518,34 @@ const pokemons = [
         desc: "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers."
     },
     {
+        name: "Abra",
+        num: "63",
+        imgsrc: "./src/images/pokemons/gen_one/abra.gif",
+        types: ["psychic"],
+        desc: "It sleeps for 18 hours a day. It uses a variety of extrasensory powers even while asleep."
+    },
+    {
+        name: "Kadabra",
+        num: "64",
+        imgsrc: "./src/images/pokemons/gen_one/kadabra.gif",
+        types: ["psychic"],
+        desc: "It happened one morning - a boy with extrasensory powers awoke in bed transformed into KADABRA."
+    },
+    {
+        name: "Alakazam",
+        num: "65",
+        imgsrc: "./src/images/pokemons/gen_one/alakazam.gif",
+        types: ["psychic"],
+        desc: "It does not like physical attacks very much. Instead, it freely uses extrasensory powers to defeat foes."
+    },
+    {
+        name: "Mega Alakazam",
+        num: "65",
+        imgsrc: "./src/images/pokemons/gen_one/alakazam-mega.gif",
+        types: ["psychic"],
+        desc: "As a result of Mega Evolution, its power has been entirely converted into psychic energy, and it has lost all strength in its muscles."
+    },
+    {
         name: "Machop",
         num: "66",
         imgsrc: "./src/images/pokemons/gen_one/machop.gif",
@@ -735,6 +763,20 @@ const pokemons = [
         desc: "The energy of Mega Evolution awakened it. It sinks into another dimension, where it keeps a patient watch for its chance to attack."
     },
     {
+        name: "Drowzee",
+        num: "96",
+        imgsrc: "./src/images/pokemons/gen_one/drowzee.gif",
+        types: ["psychic"],
+        desc: "A descendent of the legendary animal baku, which is said to eat dreams. It is skilled at hypnotism."
+    },
+    {
+        name: "Hypno",
+        num: "97",
+        imgsrc: "./src/images/pokemons/gen_one/hypno.gif",
+        types: ["psychic"],
+        desc: "It carries a pendulum-like device. There once was an incident in which it took away a child it hypnotized."
+    },
+    {
         name: "Krabby",
         num: "98",
         imgsrc: "./src/images/pokemons/gen_one/krabby.gif",
@@ -903,6 +945,13 @@ const pokemons = [
         desc: "This POKéMON has a geometric body. Because of its body, the locals suspect that it is an alien creature."
     },
     {
+        name: "Mr. Mime",
+        num: "122",
+        imgsrc: "./src/images/pokemons/gen_one/mr.mime.gif",
+        types: ["psychic", "fairy"],
+        desc: "It is adept at conning people. It is said to be able to create walls out of thin air by miming."
+    },
+    {
         name: "Scyther",
         num: "123",
         imgsrc: "./src/images/pokemons/gen_one/scyther.gif",
@@ -1041,6 +1090,34 @@ const pokemons = [
         imgsrc: "./src/images/pokemons/gen_one/moltres.gif",
         types: ["fire", "flying"],
         desc: "One of the legendary bird POKéMON. Those seeing it are overwhelmed by its orange wings that seem to be on fire."
+    },
+    {
+        name: "Mewtwo",
+        num: "150",
+        imgsrc: "./src/images/pokemons/gen_one/mewtwo.gif",
+        types: ["psychic"],
+        desc: "A POKéMON whose genetic code was repeatedly recombined for research. It turned vicious as a result."
+    },
+    {
+        name: "Mega Mewtwo X",
+        num: "150",
+        imgsrc: "./src/images/pokemons/gen_one/mewtwo-megax.gif",
+        types: ["psychic", "fighting"],
+        desc: "Psychic power has augmented its muscles. It has a grip strength of one ton and can sprint a hundred meters in two seconds flat!"
+    },
+    {
+        name: "Mega Mewtwo Y",
+        num: "150",
+        imgsrc: "./src/images/pokemons/gen_one/mewtwo-megay.gif",
+        types: ["psychic"],
+        desc: "Despite its diminished size, its mental power has grown phenomenally. With a mere thought, it can smash a skyscraper to smithereens."
+    },
+    {
+        name: "Mew",
+        num: "151",
+        imgsrc: "./src/images/pokemons/gen_one/mew.gif",
+        types: ["psychic"],
+        desc: "A POKéMON of South America that was thought to have been extinct. It is very intelligent and learns any move."
     },
 ];
 
