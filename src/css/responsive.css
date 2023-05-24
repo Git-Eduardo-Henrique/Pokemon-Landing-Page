@@ -1,0 +1,26 @@
+:root{
+    /* colors */
+    --white: #f3f0f0;
+    --dark: #100F10;
+    --medium-dark: #1b1b1b;
+    --red: #E33D33;
+
+    --background: #DBD9DB;
+
+    /* measurements */
+    --medium: 0.875rem;
+}
+
+@media only screen and (max-width: 600px){
+    header{
+        padding: 15px;
+    }
+
+    .logo, .button-img{
+        width: 3rem;
+    }
+
+    .poke-card{
+        width: 90%;
+    }
+}

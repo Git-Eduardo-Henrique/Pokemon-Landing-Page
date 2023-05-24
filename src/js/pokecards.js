@@ -8,6 +8,7 @@ export function load_pokemons() {
         const pokelist = document.querySelector("ul.poke-list")
 
         let pokecard = document.createElement("li")
+        pokecard.classList.add("poke-card")
         pokecard.classList.add(`${pokemons[pos].types[0]}-poke-card`)
 
         let titlediv = document.createElement("div")
@@ -26,6 +27,7 @@ export function load_pokemons() {
         for (let type_pos = 0; type_pos < pokemons[pos].types.length; type_pos++){
             let type = document.createElement("li")
             type.classList.add(`${pokemons[pos].types[type_pos]}-type`)
+            type.classList.add("poke-type")
     
             let type_img = document.createElement("img")
             type_img.src = `./src/images/icons/types/${pokemons[pos].types[type_pos]}.svg`
