@@ -168,24 +168,10 @@ const pokemons = [
         desc: "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down."
     },
     {
-        name: "Alolan Rattata",
-        num: "19",
-        imgsrc: "./src/images/pokemons/gen_one/rattata-alola.gif",
-        types: ["dark", "normal"],
-        desc: "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down."
-    },
-    {
         name: "Raticate",
         num: "20",
         imgsrc: "./src/images/pokemons/gen_one/raticate.gif",
         types: ["normal"],
-        desc: "Its rear feet have three toes each. They are webbed, enabling it to swim across rivers."
-    },
-    {
-        name: "Alolan Raticate",
-        num: "20",
-        imgsrc: "./src/images/pokemons/gen_one/raticate-alola.gif",
-        types: ["dark", "normal"],
         desc: "Its rear feet have three toes each. They are webbed, enabling it to swim across rivers."
     },
     {
@@ -231,13 +217,6 @@ const pokemons = [
         desc: "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint."
     },
     {
-        name: "Alolan Raichu",
-        num: "26",
-        imgsrc: "./src/images/pokemons/gen_one/raichu-alola.gif",
-        types: ["electric", "psychic"],
-        desc: "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint."
-    },
-    {
         name: "Sandshrew",
         num: "27",
         imgsrc: "./src/images/pokemons/gen_one/sandshrew.gif",
@@ -245,24 +224,10 @@ const pokemons = [
         desc: "It burrows and lives underground. If threatened, it curls itself up into a ball for protection."
     },
     {
-        name: "Alolan Sandshrew",
-        num: "27",
-        imgsrc: "./src/images/pokemons/gen_one/sandshrew-alola.gif",
-        types: ["ice", "steel"],
-        desc: "It burrows and lives underground. If threatened, it curls itself up into a ball for protection."
-    },
-    {
         name: "Sandslash",
         num: "28",
         imgsrc: "./src/images/pokemons/gen_one/sandslash.gif",
         types: ["ground"],
-        desc: "It is adept at attacking with the spines on its back and its sharp claws while quickly scurrying about."
-    },
-    {
-        name: "Alolan Sandslash",
-        num: "28",
-        imgsrc: "./src/images/pokemons/gen_one/sandslash-alola.gif",
-        types: ["ice", "steel"],
         desc: "It is adept at attacking with the spines on its back and its sharp claws while quickly scurrying about."
     },
     {
@@ -329,24 +294,10 @@ const pokemons = [
         desc: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
     },
     {
-        name: "Alolan Vulpix",
-        num: "37",
-        imgsrc: "./src/images/pokemons/gen_one/vulpix-alola.gif",
-        types: ["ice"],
-        desc: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
-    },
-    {
         name: "Ninetales",
         num: "38",
         imgsrc: "./src/images/pokemons/gen_one/ninetales.gif",
         types: ["fire"],
-        desc: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
-    },
-    {
-        name: "Alolan Ninetales",
-        num: "38",
-        imgsrc: "./src/images/pokemons/gen_one/ninetales-alola.gif",
-        types: ["ice", "fairy"],
         desc: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
     },
     {
@@ -434,24 +385,10 @@ const pokemons = [
         desc: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
     },
     {
-        name: "Alolan Diglett",
-        num: "50",
-        imgsrc: "./src/images/pokemons/gen_one/diglett-alola.gif",
-        types: ["ground", "steel"],
-        desc: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
-    },
-    {
         name: "Dugtrio",
         num: "51",
         imgsrc: "./src/images/pokemons/gen_one/dugtrio.gif",
         types: ["ground"],
-        desc: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction."
-    },
-    {
-        name: "Alolan Dugtrio",
-        num: "51",
-        imgsrc: "./src/images/pokemons/gen_one/dugtrio-alola.gif",
-        types: ["ground", "steel"],
         desc: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction."
     },
     {
@@ -462,24 +399,10 @@ const pokemons = [
         desc: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow."
     },
     {
-        name: "Alolan Meowth",
-        num: "52",
-        imgsrc: "./src/images/pokemons/gen_one/meowth-alola.gif",
-        types: ["dark"],
-        desc: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow."
-    },
-    {
         name: "Persian",
         num: "53",
         imgsrc: "./src/images/pokemons/gen_one/persian.gif",
         types: ["normal"],
-        desc: "Has a vicious temperament. Beware if it raises its tail straight up. It is a signal that it is about to pounce and bite."
-    },
-    {
-        name: "Alolan Persian",
-        num: "53",
-        imgsrc: "./src/images/pokemons/gen_one/persian-alola.gif",
-        types: ["dark"],
         desc: "Has a vicious temperament. Beware if it raises its tail straight up. It is a signal that it is about to pounce and bite."
     },
     {
@@ -637,13 +560,6 @@ const pokemons = [
         desc: "Its round form makes it easy to pick up. Some people have used them to hurl at each other in a snowball fight."
     },
     {
-        name: "Alolan Geodude",
-        num: "74",
-        imgsrc: "./src/images/pokemons/gen_one/geodude-alola.gif",
-        types: ["electric", "rock"],
-        desc: "Its round form makes it easy to pick up. Some people have used them to hurl at each other in a snowball fight."
-    },
-    {
         name: "Graveler",
         num: "75",
         imgsrc: "./src/images/pokemons/gen_one/graveler.gif",
@@ -651,24 +567,10 @@ const pokemons = [
         desc: "Be careful while hiking on mountain trails. GRAVELER may come rolling down the path without slowing."
     },
     {
-        name: "Alolan Graveler",
-        num: "75",
-        imgsrc: "./src/images/pokemons/gen_one/graveler-alola.gif",
-        types: ["electric", "rock"],
-        desc: "Be careful while hiking on mountain trails. GRAVELER may come rolling down the path without slowing."
-    },
-    {
         name: "Golem",
         num: "76",
         imgsrc: "./src/images/pokemons/gen_one/golem.gif",
         types: ["rock", "ground"],
-        desc: "It is enclosed in a hard shell that is as rugged as slabs of rock. It sheds skin once a year to grow larger."
-    },
-    {
-        name: "Alolan Golem",
-        num: "76",
-        imgsrc: "./src/images/pokemons/gen_one/golem-alola.gif",
-        types: ["electric", "rock"],
         desc: "It is enclosed in a hard shell that is as rugged as slabs of rock. It sheds skin once a year to grow larger."
     },
     {
@@ -763,24 +665,10 @@ const pokemons = [
         desc: "Sludge exposed to X rays from the moon transformed into GRIMER. It loves feeding on filthy things."
     },
     {
-        name: "Alolan Grimer",
-        num: "88",
-        imgsrc: "./src/images/pokemons/gen_one/grimer-alola.gif",
-        types: ["dark", "poison"],
-        desc: "Sludge exposed to X rays from the moon transformed into GRIMER. It loves feeding on filthy things."
-    },
-    {
         name: "Muk",
         num: "89",
         imgsrc: "./src/images/pokemons/gen_one/muk.gif",
         types: ["poison"],
-        desc: "It is usually undetectable because it blends in with the ground. Touching it can cause terrible poisoning."
-    },
-    {
-        name: "Alolan Muk",
-        num: "89",
-        imgsrc: "./src/images/pokemons/gen_one/muk-alola.gif",
-        types: ["dark", "poison"],
         desc: "It is usually undetectable because it blends in with the ground. Touching it can cause terrible poisoning."
     },
     {
@@ -900,13 +788,6 @@ const pokemons = [
         num: "105",
         imgsrc: "./src/images/pokemons/gen_one/marowak.gif",
         types: ["ground"],
-        desc: "It is small and was originally very weak. Its temperament turned ferocious when it began using bones."
-    },
-    {
-        name: "Alolan Marowak",
-        num: "105",
-        imgsrc: "./src/images/pokemons/gen_one/marowak-alola.gif",
-        types: ["ghost", "fire"],
         desc: "It is small and was originally very weak. Its temperament turned ferocious when it began using bones."
     },
     {
